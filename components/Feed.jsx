@@ -96,12 +96,6 @@ const Feed = () => {
           handleTitleClick={handleTitleClick}
         />
       )}
-
-      <CardList
-        data={posts}
-        handleTagClick={handleTagClick}
-        handleTitleClick={handleTitleClick}
-      />
     </section>
   );
 };
