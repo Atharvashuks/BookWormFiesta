@@ -97,7 +97,11 @@ const Feed = () => {
         />
       )}
 
-      <CardList data={posts} handleTagClick={() => {}} />
+      <CardList
+        data={posts}
+        handleTagClick={handleTagClick}
+        handleTitleClick={handleTitleClick}
+      />
     </section>
   );
 };
